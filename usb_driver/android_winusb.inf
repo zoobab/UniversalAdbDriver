@@ -851,6 +851,20 @@ HKR,,Icon,,-1
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
 
+;RockChip SDK (RK3066)
+%SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0000&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0001&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0002&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0003&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0004&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0005&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0006
+%SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0010&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0011&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0012&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0013&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0014&MI_01
+
 [ClockworkMod.NTamd64]
 
 ;Nook
@@ -1677,6 +1691,20 @@ HKR,,Icon,,-1
 ;Spreadtrum
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
+
+;RockChip SDK (RK3066)
+%SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0000&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0001&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0002&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0003&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0004&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0005&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0006
+%SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0010&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0011&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0012&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0013&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0014&MI_01
 
 [USB_Install]
 Include = winusb.inf
